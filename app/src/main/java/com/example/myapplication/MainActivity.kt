@@ -1,9 +1,15 @@
 package com.example.myapplication
 
+// librerias necesarias para una actividad basada en jetpack compose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+
+// librerias de jetpack compose y material 3
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.ExperimentalMaterial3Api
+
+// composable de la aplicacion y tema personalizado
 import com.example.myapplication.ui.ToDoApp
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
